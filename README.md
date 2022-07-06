@@ -3,7 +3,7 @@
 <br>
 
 <p align="center" width="100%">
-    <img width="75%" src="/ColorSpace_Scrape/Generic Gradient.png">
+    <img width="100%" src="/ColorSpace_Scrape/Generic Gradient.png">
 </p>
 
 <br>
@@ -94,5 +94,5 @@ sns.lineplot(data=df, x='n', y='y', hue='grp', palette=p)
 ```
 
 <p align="center" width="100%">
-    <img width="75%" src="/ColorSpace_Scrape/Shades.png">
+    <img width="100%" src="/ColorSpace_Scrape/Shades.png">
 </p>

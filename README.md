@@ -24,7 +24,7 @@
 
 <br>
 
-```
+```Python
 # import ColorSpace function
 from ipynb.fs.full.ColorSpace import colorspace
 ```
@@ -35,7 +35,7 @@ from ipynb.fs.full.ColorSpace import colorspace
     <li><code>hex_base</code> - Define the base color hex code to derive palettes (e.g. teal '89F4EC'). <b>NB.</b> Do not include # in the base code.</li>
 </ul>
 
-```
+```Python
 # select hex code
 hex_base = '89F4EC'
 ```
@@ -46,13 +46,13 @@ hex_base = '89F4EC'
     <li><code>colorspace(hex_base)</code> - Call the <code>colorspace</code> function using the <code>hex_base</code> to produce a dictionary of palettes and constintuent hex codes.</li>
 </ul>
 
-```
+```Python
 # run the function
 palettes = colorspace(hex_base)
 palettes
 ```
 
-```
+```Python
 >> Output
 {'Generic Gradient': ['#89f4ec', '#88fadb', '#97fdc2', '#b2fea6', '#d3fd8a', '#f9f871'],
  'Matching Gradient': ['#89f4ec', '#54d6f2', '#51b4ef', '#768ed8', '#9663ab', '#9e386e'],
@@ -87,7 +87,7 @@ palettes
     <li><code>Select & apply a palette</code> - Filter the <code>palettes</code> dictionary and assign to a variable that is used in data visualisation.</li>
 </ul>
 
-```
+```Python
 # run the function
 p = palettes['Generic Gradient']
 sns.lineplot(data=df, x='n', y='y', hue='grp', palette=p)

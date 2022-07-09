@@ -1,4 +1,4 @@
-<h1>ColorSpace Web Scrap</h1>
+<h1>ColorSpace Web Scrape</h1>
 
 <br>
 
